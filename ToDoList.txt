@@ -1,0 +1,102 @@
+0.Beside Technologies
+         Login By Google: Done 
+         Folder Directory Tree:Config
+         Folder Directory Tree:Component Frontend 80%
+         Config Router Login Google
+         Connect to PostgreSQL
+
+I.Design DataBase(mySQL):80%
+
+  https://dbdiagram.io/d/Expense-Tracking-65de967d5cd0412774f89517
+
+II.Design Layout.
+  Home Page Design.
+  Add Button Design.
+  Bottom NavBar.
+  Divide Wallet, Note, Report Component
+  Upd layout Top NavBar.
+  Select category form dropbox
+  Click Icon list to add new or update.
+  Fix height in select category form
+  Upd From add expense: add input form, buttons, 
+  Create Category Form:Create ICon form, create default icon data.
+Change red color in dark mode category.
+
+III.Code Logic Components + Backend API.
+
+
+----------------------------------------------------------------------------------------------------
+WALLET
+----------------------------------------------------------------------------------------------------
+
+  Validate create new wallet, use only 1 handle for all form
+  When create new wallet, make promise toastify.
+  Load wallet form database.
+  After create wallet, show new wallet.
+  Edit + Delete Wallet
+  Show wallet in dropdown list.
+  BUG Alway focus button tag when change
+  Wallet Component:Create Wallet Form
+  Fix wallet delete, update, save.
+  Add default wallet.
+
+
+----------------------------------------------------------------------------------------------------
+CATEGORY
+----------------------------------------------------------------------------------------------------
+
+  Update category backend
+  Fix toaster, check info when update: wallet vs category.
+  Fix login other user localstorage: wallet, category.
+  Delete expense/earn when select
+  Create delete button to resolve CRUD category.
+
+  
+ 
+----------------------------------------------------------------------------------------------------
+EXPENSE
+----------------------------------------------------------------------------------------------------
+  Select category for expense.
+  Bug Show to in child components, when edit category.Turn off Toast in child components
+  Show Detail expense
+  BUG Input first time there is more 1 of zero money.
+  CRUD expense:delete vs update.
+  Show expense one day
+  Show data other month.
+  Fix when change expense wallet.
+
+
+----------------------------------------------------------------------------------------------------
+REPORT
+----------------------------------------------------------------------------------------------------
+  Add chart pie
+  Add chart bard
+
+
+
+
+----------------------------------------------------------------------------------------------------
+OTHER
+----------------------------------------------------------------------------------------------------
+  Add set money type:VND vs YEN to setting: call API yen/vnd
+  Set change month
+  Set default wallet.
+  Set session depend on JWT=> Can not!
+  BUG Find BUG minified-react-error-418-and-423 => Reason: Link tag
+  BUG Reduce size of serverless deploy package
+  BUG Can't run 2 file python as the same time.
+  Just show loading in 2s if have session info( Pu idea)
+  BUG logout call api.
+  BUG Dark mode calendar, selected day background not show.
+  Del Wallet, Add Transfer Wallet.
+  Add export CSV at profile menu to backup Data.
+TODO: Add Gemini API AI
+IV.Test + Deployment.
+Test form zero user.
+  Fix code moveFirstWallet
+  Make layout for big size, just use 1/3
+
+
+
+
+

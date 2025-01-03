@@ -1,0 +1,24 @@
+{
+  "cSpell.words": [
+    "authlib",
+    "Binh",
+    "binhhuhaha",
+    "cachecontrol",
+    "chartjs",
+    "datalabels",
+    "executemany",
+    "genai",
+    "generativeai",
+    "jsonify",
+    "lastrowid",
+    "numpy",
+    "psycopg",
+    "Swal",
+    "sweetalert",
+    "tailwindcss",
+    "toastify",
+    "YMDHMS"
+  ],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 100
+}
