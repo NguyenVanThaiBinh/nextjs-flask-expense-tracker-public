@@ -12,7 +12,15 @@
 
 ## Introduction
 
-This is a hybrid Next.js + Python app that uses Next.js as the frontend and Flask as the API backend. You can note your Expense Note, then it's be save in PostgresSQL.
+This is a hybrid Next.js + Python app that uses Next.js as the frontend and Flask as the API backend. 
+You can note your Expense Note, then it's be save in PostgresSQL.
+ +CURD Wallet, check log Wallet.
+ +Note expense, earning, CURD category, Icon.
+ +See report month, year by pie or bard chart.
+ +Import expense from Paypay CSV file.
+ +Export data to CSV.
+ +Change currency with VND vs YEN.
+ ...
 
 ## How It Works
 
